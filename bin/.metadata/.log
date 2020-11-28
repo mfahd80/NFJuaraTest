@@ -1,0 +1,211 @@
+!SESSION 2020-11-28 13:17:44.635 -----------------------------------------------
+eclipse.buildId=4.1.2.201902210640-RELEASE
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2020-11-28 13:18:55.943
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2020-11-28 13:18:57.447
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-11-28 13:18:57.448
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-11-28 13:18:58.508
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-11-28 13:18:58.548
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2020-11-28 13:18:59.488
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-28 13:18:59.488
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@629dfb5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c955487,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-28 13:19:09.295
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fahd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-11-28 13:19:19.418
+!MESSAGE Initializing CodeMix Engine's settings file at C:\Users\Fahd\Documents\Project\baru\NFJuara\.metadata\codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-11-28 13:19:19.489
+!MESSAGE Verifying CodeMix Engine runtime integrity...
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-11-28 13:19:19.499
+!MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\artifacts.xml]
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-11-28 13:19:19.589
+!MESSAGE Integrity check PASSED
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-11-28 13:19:19.954
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2020-11-28 13:20:52.315
+!MESSAGE java.lang.RuntimeException: Connection closed
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Connection closed
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.requestInstalledExtensions(ExtensionsService.java:660)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.access$15(ExtensionsService.java:656)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService$2.run(ExtensionsService.java:848)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.RuntimeException: Connection closed
+	at com.genuitec.eclipse.code.core.engine.SessionHandler$RequestInfo.connectionClosed(SessionHandler.java:169)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleClose(SessionHandler.java:854)
+	at com.genuitec.eclipse.code.core.engine.EngineService.disposeConnection(EngineService.java:1069)
+	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onClose(EngineServerEndpoint.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:549)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:558)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onClose(TyrusEndpointWrapper.java:1259)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onClose(TyrusWebSocket.java:130)
+	at org.glassfish.tyrus.core.ProtocolHandler.close(ProtocolHandler.java:469)
+	at org.glassfish.tyrus.core.TyrusWebSocket.close(TyrusWebSocket.java:264)
+	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusConnection.close(TyrusWebSocketEngine.java:853)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$CloseTask.execute(GrizzlyServerFilter.java:397)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleClose(GrizzlyServerFilter.java:147)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$4.execute(ExecutorResolver.java:76)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.nio.NIOConnection.preClose(NIOConnection.java:879)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.preClose(TCPNIOConnection.java:97)
+	at org.glassfish.grizzly.nio.NIOConnection.terminate0(NIOConnection.java:603)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.terminate0(TCPNIOConnection.java:291)
+	at org.glassfish.grizzly.nio.NIOConnection.terminateSilently(NIOConnection.java:467)
+	at org.glassfish.grizzly.nio.SelectorRunner.shutdownSelector(SelectorRunner.java:237)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:296)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2020-11-28 13:20:52.318
+!MESSAGE java.lang.RuntimeException: Connection closed
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Connection closed
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.requestInstalledExtensions(ExtensionsService.java:660)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.access$15(ExtensionsService.java:656)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService$2.run(ExtensionsService.java:848)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.RuntimeException: Connection closed
+	at com.genuitec.eclipse.code.core.engine.SessionHandler$RequestInfo.connectionClosed(SessionHandler.java:169)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleClose(SessionHandler.java:854)
+	at com.genuitec.eclipse.code.core.engine.EngineService.disposeConnection(EngineService.java:1069)
+	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onClose(EngineServerEndpoint.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:549)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:558)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onClose(TyrusEndpointWrapper.java:1259)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onClose(TyrusWebSocket.java:130)
+	at org.glassfish.tyrus.core.ProtocolHandler.close(ProtocolHandler.java:469)
+	at org.glassfish.tyrus.core.TyrusWebSocket.close(TyrusWebSocket.java:264)
+	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusConnection.close(TyrusWebSocketEngine.java:853)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$CloseTask.execute(GrizzlyServerFilter.java:397)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleClose(GrizzlyServerFilter.java:147)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$4.execute(ExecutorResolver.java:76)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.nio.NIOConnection.preClose(NIOConnection.java:879)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.preClose(TCPNIOConnection.java:97)
+	at org.glassfish.grizzly.nio.NIOConnection.terminate0(NIOConnection.java:603)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.terminate0(TCPNIOConnection.java:291)
+	at org.glassfish.grizzly.nio.NIOConnection.terminateSilently(NIOConnection.java:467)
+	at org.glassfish.grizzly.nio.SelectorRunner.shutdownSelector(SelectorRunner.java:237)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:296)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2020-11-28 13:20:52.320
+!MESSAGE java.lang.RuntimeException: Connection closed
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Connection closed
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.requestInstalledExtensions(ExtensionsService.java:660)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.access$15(ExtensionsService.java:656)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService$2.run(ExtensionsService.java:848)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.RuntimeException: Connection closed
+	at com.genuitec.eclipse.code.core.engine.SessionHandler$RequestInfo.connectionClosed(SessionHandler.java:169)
+	at com.genuitec.eclipse.code.core.engine.SessionHandler.handleClose(SessionHandler.java:854)
+	at com.genuitec.eclipse.code.core.engine.EngineService.disposeConnection(EngineService.java:1069)
+	at com.genuitec.eclipse.code.core.engine.EngineServerEndpoint.onClose(EngineServerEndpoint.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.callMethod(AnnotatedEndpoint.java:534)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:549)
+	at org.glassfish.tyrus.core.AnnotatedEndpoint.onClose(AnnotatedEndpoint.java:558)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onClose(TyrusEndpointWrapper.java:1259)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onClose(TyrusWebSocket.java:130)
+	at org.glassfish.tyrus.core.ProtocolHandler.close(ProtocolHandler.java:469)
+	at org.glassfish.tyrus.core.TyrusWebSocket.close(TyrusWebSocket.java:264)
+	at org.glassfish.tyrus.core.TyrusWebSocketEngine$TyrusConnection.close(TyrusWebSocketEngine.java:853)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter$CloseTask.execute(GrizzlyServerFilter.java:397)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.server.GrizzlyServerFilter.handleClose(GrizzlyServerFilter.java:147)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$4.execute(ExecutorResolver.java:76)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.nio.NIOConnection.preClose(NIOConnection.java:879)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.preClose(TCPNIOConnection.java:97)
+	at org.glassfish.grizzly.nio.NIOConnection.terminate0(NIOConnection.java:603)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.terminate0(TCPNIOConnection.java:291)
+	at org.glassfish.grizzly.nio.NIOConnection.terminateSilently(NIOConnection.java:467)
+	at org.glassfish.grizzly.nio.SelectorRunner.shutdownSelector(SelectorRunner.java:237)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:296)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)

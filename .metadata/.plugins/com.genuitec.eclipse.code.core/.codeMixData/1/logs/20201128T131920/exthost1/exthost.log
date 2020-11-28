@@ -1,0 +1,31 @@
+[2020-11-28 13:19:27.578] [exthost] [info] extension host started
+[2020-11-28 13:19:28.569] [exthost] [info] extension host started
+[2020-11-28 13:19:28.605] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.605] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\pack.core.win_3.6.0.201910290238\HookyQR.beautify-1.4.11\extension
+[2020-11-28 13:19:28.785] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.785] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\Fahd\.codemix\extensions\christian-kohler.path-intellisense-1.4.2\out\src\extension
+[2020-11-28 13:19:28.821] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.821] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\Fahd\.codemix\extensions\dbaeumer.vscode-eslint-1.9.0\client\out\extension
+[2020-11-28 13:19:28.885] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.885] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\debug-auto-launch\dist\extension
+[2020-11-28 13:19:28.893] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.893] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\emmet\dist\extension
+[2020-11-28 13:19:28.919] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.919] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\Fahd\.codemix\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2020-11-28 13:19:28.923] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2020-11-28 13:19:28.923] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\Fahd\.codemix\extensions\formulahendry.auto-rename-tag-0.0.15\out\src\extension
+[2020-11-28 13:19:28.930] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-11-28 13:19:28.930] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\configuration-editing\dist\extension
+[2020-11-28 13:19:28.943] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-11-28 13:19:28.943] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
+[2020-11-28 13:19:29.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-11-28 13:19:29.051] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\typescript-language-features\dist\extension
+[2020-11-28 13:19:29.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-11-28 13:19:29.140] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\grunt\dist\main
+[2020-11-28 13:19:29.147] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-11-28 13:19:29.147] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\gulp\dist\main
+[2020-11-28 13:19:29.156] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-11-28 13:19:29.156] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\jake\dist\main
+[2020-11-28 13:19:29.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2020-11-28 13:19:29.164] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\Fahd\Documents\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\com.genuitec.eclipse.code.engine.app.win32.x86_64_3.6.0.201910290238\engine\resources\app\extensions\npm\dist\main
+[2020-11-28 13:19:29.784] [exthost] [info] eager extensions activated
